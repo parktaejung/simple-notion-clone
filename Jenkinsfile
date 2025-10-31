@@ -35,7 +35,7 @@ pipeline {
                                 sshTransfer(
                                     sourceFiles: 'build/**', 
                                     removePrefix: 'build', 
-                                    remoteDirectory: '/web/react-app' // NAS 웹 스테이션 폴더
+                                    remoteDirectory: '/web/notion' // NAS 웹 스테이션 폴더
                                 )
                             ],
                             execCommand: 'echo "Deployment finished!"' 
